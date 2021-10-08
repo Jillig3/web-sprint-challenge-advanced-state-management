@@ -13,7 +13,6 @@ function App(props) {
   useEffect(()=> {
     getSmurfs();
   }, []);
-
   
   return (
     <div className="App">

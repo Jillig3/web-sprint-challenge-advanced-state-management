@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { addSmurf, fetchError } from '../actions';
 import { connect } from 'react-redux';
 
-
 const AddForm = (props) => {
     const [state, setState] = useState({
         name:"",

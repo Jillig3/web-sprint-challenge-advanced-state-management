@@ -1,6 +1,5 @@
 import { FETCH_START , FETCH_SUCCESS, ADD_SMURF, FETCH_ERROR} from '../actions';
 
-
 export const initialState = {
     smurfs: [],
     loading: false,
