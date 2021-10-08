@@ -111,9 +111,19 @@ In this project, you will build the reducer, actions and basic redux connects ne
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
 1. What problem does the context API help solve?
-
+<!-- 
+It provides a provider-consumer component pairs to communicate between the nested components in the hierarchy. -->
 2. In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
-
+<!-- 
+Actions: Are the events that describe something that will happen in an application.
+Reducers: Take current state and an action as an argument and return a new state.
+Store: This is our one source of truth with Redux. It allows us to pass state directly into the places that need it rather than have to prop drill through multipl levels to pass to grandchildren.
+ -->
 3. What does `redux-thunk` allow us to do? How does it change our `action-creators`?
-
+<!-- 
+They allow us to use a function to return a function. We can use this with our actions to make an api call and inside that same function dispatch it.
+ -->
 4. What is your favorite state management system you've learned and this sprint? Please explain why!
+<!-- 
+Redux - from my knowledge this is the most widely used in the workplace currently so I believe it will be the most helpful in the job search.
+ -->
